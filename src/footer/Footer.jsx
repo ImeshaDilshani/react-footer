@@ -64,6 +64,36 @@ function Footer() {
                         <p><img src={inst}/></p>
                     </div>
                 </div>
+
+                <hr></hr>
+
+                <div className="sb-footer-below">
+                    <div className="sb-footer-copyright">
+                        <p>@{new Date().getFullYear()} Minute Magic All right reserved</p>
+                    </div>
+                    <div className="sb-footer-below-links">
+                        <a href="/term">
+                            <div>
+                                <p>Term & Conditions</p>
+                            </div>
+                        </a>
+                        <a href="/privacy">
+                            <div>
+                                <p>Privacy</p>
+                            </div>
+                        </a>
+                        <a href="/security">
+                            <div>
+                                <p>Security</p>
+                            </div>
+                        </a>
+                        <a href="/cookie">
+                            <div>
+                                <p>Cookie Declaration</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
