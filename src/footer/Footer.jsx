@@ -58,14 +58,14 @@ function Footer() {
                 <div className="sb-footer-links-div">
                     <h4>Coming soon on</h4>
                     <div className="socialmedia">
-                        <p><img src={fb}/></p>
-                        <p><img src={twitter}/></p>
-                        <p><img src={LinkedIn}/></p>
-                        <p><img src={inst}/></p>
+                        <p><img src={fb} alt=''/></p>
+                        <p><img src={twitter} alt=''/></p>
+                        <p><img src={LinkedIn} alt=''/></p>
+                        <p><img src={inst} alt=''/></p>
                     </div>
                 </div>
-
-                <hr></hr>
+            </div>
+            <hr></hr>
 
                 <div className="sb-footer-below">
                     <div className="sb-footer-copyright">
@@ -94,7 +94,6 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
   )
